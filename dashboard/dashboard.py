@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # load file csv
-day_df = pd.read_csv('../data/day.csv')
-hour_df = pd.read_csv('../data/hour.csv')
+day_df = pd.read_csv('./data/day.csv')
+hour_df = pd.read_csv('./data/hour.csv')
 
 # helper function
 def get_avg_metrics(df):
