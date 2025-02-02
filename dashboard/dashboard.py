@@ -86,7 +86,7 @@ st.subheader(f"Grafik penyewaan sepeda dalam sebuah periode")
 fig, ax = plt.subplots(figsize=(20, 10))
 
 ax.plot(main_df['dteday'], main_df['cnt'], color='darkblue', marker='s')
-ax.set_title(f'Total penyewaan dalam periode {start_date}-{end_date}', loc='center', fontsize=20)
+ax.set_title(f'Total penyewaan dalam periode {start_date} hingga {end_date}', loc='center', fontsize=20)
 ax.set_xlabel('Tanggal', fontsize= 10)
 ax.set_ylabel('Total', fontsize= 10)
 ax.tick_params(axis='x', rotation=45)
