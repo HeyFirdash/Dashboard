@@ -30,7 +30,7 @@ min_date = pd.to_datetime(main_df['dteday'].min())
 max_date = pd.to_datetime(main_df['dteday'].max())
 
 with st.sidebar: # Create sidebar
-    st.image("../img.jpeg")
+    st.image("img.jpeg")
     start_date, end_date = st.date_input(
         label='Rentang Waktu',
         min_value= min_date,
