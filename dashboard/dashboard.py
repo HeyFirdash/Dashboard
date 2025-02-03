@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # load file csv
-main_df = pd.read_csv('./main.csv')
-time_df = pd.read_csv('./time.csv')
+main_df = pd.read_csv('dashboard/main.csv')
+time_df = pd.read_csv('dashboard/time.csv')
 
 main_df['dteday'] = pd.to_datetime(main_df['dteday'])
 
