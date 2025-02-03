@@ -10,8 +10,12 @@ pip install -r requirements.txt
 mkdir dashboard  
 cd dashboard  
 touch dashboard.py  
+touch main.csv
+touch time.csv
 cd ../   
 mkdir data  
+touch day.csv
+touch hour.csv
 cd ../  
 touch noteboook.ipynb  
 
